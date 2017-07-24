@@ -1,0 +1,32 @@
+{
+  "name": "ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.jsx -o index.js && babel test/test.es6 -o test/test.js",
+    "test": "mocha",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtrelogan/ci-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtrelogan/ci-test/issues"
+  },
+  "homepage": "https://github.com/dtrelogan/ci-test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "mocha": "^3.4.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-formstate": "^0.5.0",
+    "react-formstate-validation": "^0.3.5"
+  }
+}
