@@ -38,7 +38,7 @@ var html = _server2.default.renderToString(_react2.default.createElement(
     'body',
     null,
     _react2.default.createElement(_index2.default, {
-      model: { test: 'hello world!' },
+      model: { test: 'hello branch 11!' },
       grabFormRef: function grabFormRef(c) {
         return form = c;
       },
@@ -51,7 +51,7 @@ var html = _server2.default.renderToString(_react2.default.createElement(
 
 describe('App', function () {
   it('injects the model data', function () {
-    _assert2.default.equal('hello world!', input.props.fieldState.getValue());
+    _assert2.default.equal('hello branch 11!', input.props.fieldState.getValue());
   });
   it('validates onChange', function () {
     _assert2.default.equal(false, input.props.fieldState.isValidated());
