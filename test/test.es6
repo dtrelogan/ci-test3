@@ -14,7 +14,7 @@ const html = ReactDOMServer.renderToString(
     </head>
     <body>
       <TestForm
-        model={{test: 'hello world!'}}
+        model={{test: 'hello branch 12!'}}
         grabFormRef={c => form = c}
         grabInputRef={c => input = c}
         />
@@ -24,7 +24,7 @@ const html = ReactDOMServer.renderToString(
 
 describe('App', () => {
   it('injects the model data', () => {
-    assert.equal('hello world!', input.props.fieldState.getValue());
+    assert.equal('hello branch 12!', input.props.fieldState.getValue());
   });
   it('validates onChange', () => {
     assert.equal(false, input.props.fieldState.isValidated());
