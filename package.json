@@ -1,5 +1,5 @@
 {
-  "name": "ci-test2",
+  "name": "ci-test3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dtrelogan/ci-test2.git"
+    "url": "git+https://github.com/dtrelogan/ci-test3.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dtrelogan/ci-test2/issues"
+    "url": "https://github.com/dtrelogan/ci-test3/issues"
   },
-  "homepage": "https://github.com/dtrelogan/ci-test2#readme",
+  "homepage": "https://github.com/dtrelogan/ci-test3#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
